@@ -1,0 +1,9 @@
+1.Forgot Password
+    -1st validate the token
+    -if valid token exist()
+    -set newpassword
+    -post /update to the database
+    if {token} == session id:
+        new password
+    else:
+        response
